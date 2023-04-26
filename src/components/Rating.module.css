@@ -1,0 +1,73 @@
+.rating {
+    background-color: #1e252f;
+    height: 360px;
+    width: 340px;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+img {
+    background-color: #262f38;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+
+.ratingCircles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.ratingCircles button {
+    background-color: #262f38;
+    color: hsl(217, 12%, 63%);
+    border: none;
+    border-radius: 50%;
+    padding: 18px 23px;
+}
+
+.ratingCircles button.one {
+    padding: 18px 25px;
+}
+
+.ratingCircles button:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.ratingCircles button:active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
+
+.submit {
+    font-size: 16px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    padding: 13px 141px;
+    border: none;
+    border-radius: 25px;
+}
+
+.submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    transition: all 0.5s ease 0s;
+    cursor: pointer;
+}
