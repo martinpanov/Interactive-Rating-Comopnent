@@ -1,0 +1,22 @@
+.thank-you {
+    text-align: center;
+    background-color: #1e252f;
+    height: 360px;
+    width: 340px;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.rating-paragraph {
+    display: inline-block;
+    color: hsl(25, 97%, 53%);
+    background-color: #262f38;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+    .thank-you {
+        width: 300px;
+    }
+}
